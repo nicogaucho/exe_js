@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>práctica JavaScript</title>
+
+    <style>
+
+        .chacho{
+
+            color: #fff;
+            background-color: black;
+            padding: 10px
+
+            }
+    </style>
+
+  </head>
+  <body>
+    <div class="jumbotron">
+        <div class="container-fluid text-center">
+            <h2>Prácticando JavaScript</h2>
+        </div>
+    </div>
+
+    <!-- <div class="container my-5">
+        <div class="row">
+            <div class="col-6">
+                <form action="">
+                    <div class="form-group">
+                        <label for="colorInput">Insert Code</label>
+                        <input id="colorInput" type="text" class="form-control">
+                    </div>
+                    <button id="colorButton" class="btn btn-lg btn-primary w-100" type="submit">Generate</button>
+                </form>
+            </div>
+            <div class="col-6">
+                <div id="colorBox" style="width: 300px; height: 300px; background-color: #ddd"></div>
+            </div>
+        </div>
+    </div>
+
+ -->
+
+ <!--    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <button id="toggler" class="btn btn-lg border-dark">Switch</button>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque voluptas modi ipsum aliquid eos numquam aliquam soluta, cupiditate nobis nesciunt iure. Maiores molestias atque incidunt officiis assumenda est laboriosam ab?</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque voluptas modi ipsum aliquid eos numquam aliquam soluta, cupiditate nobis nesciunt iure. Maiores molestias atque incidunt officiis assumenda est laboriosam ab?</p>
+            </div>
+        </div>
+    </div> -->
+
+
+<!-- 
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <button id="command" class="btn btn-lg btn-warning">Color Generate</button>
+            </div>
+            <div class="col-6">
+                <div id="colorRandom" style="height: 200px; width: 200px;"></div>
+            </div>
+        </div>
+    </div>
+ -->
+
+
+
+ <!-- <div class="container">
+     <div class="row">
+         <div class="col-12">
+             <form action="">
+                 <div class="form-group">
+                     <label for="">Password</label>
+                     <input id="fieldPass" type="password" class="form-control" placeholder="Insert pass">
+                 </div>
+                 <button id="visibilityPass" class="btn btn-md btn-primary">Show password</button>
+             </form>
+         </div>
+     </div>
+ </div> -->
+<!-- <div class="container">
+    <div class="row">
+        <div class="col">
+            <p id="prueba" class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere earum illo quod aliquam asperiores! Ipsa molestiae animi repellat blandit</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere earum illo quod aliquam asperiores! Ipsa molestiae animi repellat blandit</p>
+        </div>
+    </div>
+</div>
+
+
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <button id="event" class="btn btn-danger px-5 btn-lg">Que està pasando?</button>
+        </div>
+    </div>
+</div>
+ -->
+
+ <div class="container">
+     <div class="row justify-content-center">
+         <div class="col-md-8">
+             <div class="card">
+                 <div class="card-header">
+                     <div class="card-body">
+                         <input type="text" name="" id="input_js" class="mb-4">
+                         <select name="" id="select_js">
+                             <option value="Juan">Juan</option>
+                             <option value="Sergio">Sergio</option>
+                             <option value="Edo">Edo</option>
+                         </select>
+                         <p id="element_p" class="elem chacho">Elemento</p>
+                         <p id="element_p" class="elem">Elemento</p>
+                         <p id="element_p" class="elem chacho">Elemento</p>
+                         <p id="element" class="elem">Elemento</p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+<script>
+
+        // calcular el área de un círculo de radio = 2
+
+        /* const R = 2
+        let área = Math.round(Math.PI * R**2)
+        
+        console.log(área) */
+
+        // Calcular la hipotenusa de un triángulo rectángulo de catetos 3, 4
+
+        /* 
+        const c1 = 3 
+        const c2 = 4
+
+        console.log(Math.sqrt(c1**2 + c2**2)
+                    .toFixed(2)) */
+
+        // PARA CASA escribir una función que acepta 3 números (que serán los 3 lados del triángulo). la función volverá si los 3 números pueden ser realmente los lados de un triángulo.
+
+        // generar un número aleatorio entero entre un máximo y un mínimo
+
+        /* 
+        let max = 10
+        let min = 4
+        let rand = Math.round(Math.random()*(max - min)+min)
+        
+        console.log(rand) */
+
+        // escribir un programa que imprima de 1 a 100: si el número es múltiplo de 3 impresión java ,si múltiplo de 5 impresión script, si múltiplo de 15 impresión javascript imprime de otro modo el número. 
+
+        /* 
+        for (let i = 1; i < 101; i++) {
+            console.log(i)   
+
+                if(i % 15 == 0){
+                    console.log("JAVASCRIPT")
+                    }     
+                else if(i % 3 == 0){
+                    console.log("JAVA")
+                    }
+                else if(i % 5 == 0){
+                    console.log("SCRIPT")
+                    }
+                else {
+                    console.log(i)
+                }    
+            } */
+        
+        // escribir un programa que convierta un número en horas y minutos
+
+        /* 
+        function time(num){
+            let horas = Math.floor(num / 60)
+            let minutos = (num % 60)
+
+            if(horas < 10){
+                horas = "0" + horas
+            }
+
+            if(minutos < 10){
+                minutos = "0" + minutos
+            }
+
+            console.log(horas + " : " + minutos)
+        }
+         
+         time(60) */
+
+        // escribir un programa que calcule los días que faltan hasta Año Nuevo
+
+        /* 
+        let día = new Date()
+        let añoNuevo = new Date("December 31, 2020")
+        let diff = Math.round((añoNuevo - día) / (1000 * 60 * 60 * 24))
+
+        console.log(diff)
+         */
+        
+        // escribir una función que cree un array formado por N números enteros random entre un min y un max pasados los 3 como parámetros
+
+        /* 
+        function array(n, min, max){
+            let arr = []
+            for (let i = 1; i < n; i++) {
+                let a = Math.round(Math.random()*(max - min)+min)
+                arr.push(a)
+            }
+            console.log(arr)         
+        }
+
+        array(11, 0, 20)
+         */
+
+         // tomado un número, si par lo divido por 2, si impar lo multiplico por 3 y agrego 1, al número obtenido repito el algoritmo siempre terminaré el algoritmo con 1. escribir una función que muestre una matriz con los números calculados en cada iteración.
+
+         // es. 4 => [4, 2, 1]
+         // es. 3 => [3, 10, 5, 16, 8, 4, 2, 1]
+
+        
+        /* function Calcular(num){
+             let arr = [num]
+             while(num > 1){
+                 if(num % 2 == 0){
+                     num / 2
+                } else {
+                     num = 3 * num + 1 
+                }
+            }
+             arr.push(num)
+             console.log(arr)
+        } 
+        
+
+        Calcular(3)
+          */
+        
+        // escribir una función que asigna una cadena devuelve el número de vocales presentes
+
+
+        /* function vocales(str){
+            let numDeVocales = 0
+            let vocals = ["a","e","i","o","u"]
+
+            for (let i = 0; i < str.length; i++) {
+                if(vocals.includes(str[i].toLowerCase())){
+                    numDeVocales++
+                }
+            }
+            console.log(numDeVocales)
+        }
+        vocales("Hola Antonio") */
+
+        // escribir una función suma y media de 3 números asignados. Si la suma es par, vuelve la suma, de lo contrario la media, con 2 cifras decimales
+
+            /* function alpha(a, b, c){
+                let sum = a + b + c 
+                let media = (a + b + c) / 3
+
+                if(sum % 2 == 0){
+                    console.log(sum)
+                } else {
+                    console.log(media.toFixed())
+                }
+            }
+
+            alpha(2, 4, 7)
+            */
+
+
+        // PARA CASA str slug function slug(srt)
+
+        // escribir una función que dada una cadena convierte la primera letra de cada palabra en mayúscula
+        // css capitalize 
+
+        /* function capitalizer(str){
+            let string = str.split(" ")
+            for (let i = 0; i < string.length; i++) {
+                string[i] = string[i][0].toUpperCase() + string[i].substr(1)
+            }
+            console.log(string.join(" "))
+        }
+
+        capitalizer("hola a todo el mundo")
+         */
+
+        // escribir un visor de colores hexadecimales
+
+        /* let colorButton = document.querySelector('#colorButton')
+        colorButton.addEventListener('click', (e) => {
+            e.preventDefault()
+            let colorInput = document.querySelector('#colorInput').value
+            let colorBox = document.querySelector('#colorBox').style.backgroundColor = "#" + colorInput
+            console.log(colorInput)
+        })*/
+
+
+        // escribir una función que acepta una cadena y devuelve la palabra más larga
+
+        /* function max(str){
+            console.log(str.split(" ").sort((a,b)=>(b.length - a.length))[0])
+        }
+
+        max("Hola necesito un nuevo ordenador")
+         */
+
+
+         // escribir una función que combina 2 array de números de forma decreciente, eliminando duplicados
+         
+         /* function qqq(a1, a2){
+             let fin = new Set(a1.concat(a2).sort((a,b)=>b-a))
+             let final = Array.from(fin)
+             console.log(final)
+         }
+
+         qqq([1,2],[1,2,3])
+
+        */
+
+        // escribir una función que, asignada una cadena con dos números en su interior, devuelva la suma de todas las cifras presentes
+        // es. "Soy 1 cadena de 6 palabras" => 7
+
+        /* function num(str){
+            let sum = 0;
+            let mystr = str.split("")
+            for (let i = 0; i < mystr.length; i++) {
+                if(Number(mystr[i])){
+                    sum = sum + Number(mystr[i])
+                } console.log(sum)
+            }
+        }
+
+        num("Soy 1 cadena de 4 palabras")
+        */
+         
+        
+        // crear una función que al hacer clic en una tecla establece el fondo de un elemento del DOM con un color aleatorio
+        
+        /* 
+        let command = document.querySelector('#command')
+        let colorRandom = document.querySelector('#colorRandom')
+
+        command.addEventListener('click', function(){
+            colorRandom.style.backgroundColor = "rgb(" + randomizer() + " , " + randomizer() + ", " + randomizer() + ")"
+        })
+
+        function randomizer(){
+            return Math.round(Math.random()*(255-0)+0)
+        } */
+        
+        
+        // escribir un programa que cambie de color de fondo a un elemento del DOM al pulsar una tecla
+
+        /* let toggler = document.querySelector('#toggler')
+        toggler.addEventListener('click', function(){
+            document.body.classList.toggle('bg-dark')
+            document.body.classList.toggle('text-light')
+            console.log('click on!')
+        })
+
+        */
+
+        // escribir un programa que pida un número al usuario y se vuelve "OK" si el número es múltiplo de 21, vuelve "casi - múltiplo de 7" si el número es múltiplo de 7, vuelve "NO - múltiplo de 3" si el número es múltiplo de 3, de lo contrario "HOLA"
+
+        /* let num = prompt("colocar un número:")
+            if(num % 21 == 0){
+
+                alert("OK")
+
+            } else if(num % 7 == 0){
+
+                alert("casi - múltiplo de 7")
+
+            } else if(num % 3 == 0){
+
+                alert("NO - múltiplo de 3")
+
+            } else {
+
+                alert("HOLA")
+            }
+
+
+        */
+
+
+        // escribir una función que muestra la contraseña en un formulario en forma clara
+
+
+       /*  
+        let passButton = document.querySelector('#visibilityPass')
+        passButton.addEventListener('click', function(e){
+            e.preventDefault()
+            visibilityPass()
+
+        })
+
+        function visibilityPass(){
+            let fieldPass = document.querySelector('#fieldPass')
+            if(fieldPass.type == "password"){
+                passButton.innerHTML = "muestra"
+                fieldPass.type = "text"
+            } else {
+                passButton.innerHTML = "esconde"
+                fieldPass.type = "password"
+            }
+        }
+        */
+    
+
+        // creación elemento 
+
+        /* var btn = document.createElement("button")
+        btn.innerText = "soy un button"
+        document.body.appendChild(btn) */
+
+
+        
+</script>
+        
+<script>
+
+
+
+// DOM event 
+
+        /* var event = document.querySelector('#event')
+            .addEventListener('click', ()=> {
+                alert('ok!')
+            }) */
+
+/* var prueba = document.getElementById('prueba')
+                prueba.classList.add('bg-danger', 'text-white')
+                console.log(prueba.classList)
+
+ */
+
+ /* var link = document.getElementById('link')
+        link.classList.add('chacho')
+ */
+
+
+/* var event = document.querySelector('#event')
+var prueba = document.querySelector('#prueba')
+            event.addEventListener('click', () => {
+                prueba.classList.toggle('bg-warning') //  prueba.classList.add('bg-warning') 
+            })
+ */
+
+</script>
+
+<script>
+    // DOM manipulation 
+
+    // Get an element from document 
+
+    /* var element_p = document.getElementsByTagName("element_p")
+    console.log(element_p) */
+
+    /* var element_p = document.getElementsByClassName("elem")
+    console.log(element_p) */
+    
+    /* var element_p = document.querySelector('.elem')
+    console.log(element_p) */
+
+    /* var element_p = document.querySelectorAll('.elem')
+    console.log(element_p) */
+
+    // Creation element 
+
+    /*  var button = document.createElement('button')
+        button.innerHTML = "soy un boton"
+        document.body.appendChild(button)
+        console.log(button) */
+    
+    // add class to element 
+    
+        /* var element_p = document.querySelector('.elem')
+        element_p.classList.add('chacho', 'text-center')
+        console.log(element_p) 
+        */
+
+    // cicle classes on same element 
+
+        /* var element_p = document.querySelectorAll('.elem')
+            element_p.forEach( (item) => {
+                item.classList.add('chacho', 'text-center')
+            })
+        console.log(element_p) */
+
+
+        /* var element_p = document.querySelectorAll('.elem')
+            element_p.forEach( (item, index) => {
+                if(item.classList.contains('chacho')){
+                    console.log('yes', index)
+                }
+            })
+        console.log(element_p) 
+        */
+
+    // get class from an element 
+
+        /* var element_p = document.querySelectorAll('.elem')
+            console.log(element_p[0].getAttribute('class')) */
+
+
+    // style modified on element 
+
+        /* var element = document.querySelector('#element')
+            element.style.color = 'black'
+            element.style.backgroundColor = 'green'
+            element.style.padding = '10px' */
+    
+    // events 
+
+        /* var input_js = document.querySelector('#input_js')
+            input_js.classList.add('mb-5')
+            input_js.addEventListener('keyup', () => {
+                console.log(event)
+            }) */
+        
+        /* var input_js = document.querySelector('#input_js')
+            input_js.classList.add('mb-5')
+            input_js.addEventListener('keyup', function(event){
+                if(event.code == 'Enter'){
+                    console.log('Enter')
+                }
+            }) */
+
+        /* var select_js = document.querySelector('#select_js')
+            select_js.addEventListener('change', () => {
+                let value = event.target.value 
+                input_js.setAttribute('value', value)
+            })
+            console.log(select_js) */
+
+
+        // get data from input field with key Enter event 
+
+        var input_js = document.querySelector('#input_js')
+            input_js.classList.add('mb-5')
+            let num = 0
+            input_js.addEventListener('keyup', (event) => {
+                if(event.code == 'Enter'){
+                    num = event.target.value
+                    console.log(num)
+                }
+                    try {
+                        if (num < 5) {
+                            throw 'debe ser mayor que 5'
+                        }
+                    }catch(error) {
+                            console.error();
+                        }
+            })
+    
+</script>
+
+<script>
+
+    // array and object 
+
+    
+
+
+</script>
+
+
+
+</body>
+</html>
