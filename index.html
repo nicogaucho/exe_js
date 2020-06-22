@@ -581,7 +581,7 @@ var prueba = document.querySelector('#prueba')
 
         // get data from input field with key Enter event 
 
-        var input_js = document.querySelector('#input_js')
+        /* var input_js = document.querySelector('#input_js')
             input_js.classList.add('mb-5')
             let num = 0
             input_js.addEventListener('keyup', (event) => {
@@ -596,11 +596,140 @@ var prueba = document.querySelector('#prueba')
                     }catch(error) {
                             console.error();
                         }
-            })
+            }) */
     
 </script>
 
 <script>
+
+    // como declarar una variable 
+    //var io; 
+    // como asignar valor a una variable 
+    //io = "nico";
+    // como hacer la dos cosas juntas 
+    //var io = "nico";
+    // ejemplo de variable case-sensitive
+    /* 
+    var io = "nico";
+    var IO = "nicola";
+    console.log(io);
+    console.log(IO); 
+    */
+
+    // diferencia entre const y var 
+    // la const es fija y tiene que ser inicializada inmediatamente 
+    // var puedo cambiar el contenido del valor de la variable 
+
+    /* 
+    var a;
+    a = 1; 
+    a = "nico";
+    console.log(a); 
+    */
+
+    // tipos de datos
+
+    // datos primitivos contiene un solo valor 
+    // - numero 
+    // - string 
+    // - boolean value 
+
+    // inicio metodos 
+    /* 
+    var num = 1; 
+    console.log(num);
+    console.log(num.toString()); 
+    */
+
+    // imprimir en consola undefined y not defined 
+
+    // var num = 1; pregunta que tipo de datos è num? 
+    // var num = 1; 
+    // console.log(typeof num);
+
+    // operatores 
+    // mayoria de los casos del modulo % resto de la division 
+    // console.log( 32 % 2 == 0 ) osea 32 es par? 
+
+    // if else swich 
+
+    /* usa caso 
+    var num = 10; 
+    if ( num > 0 ){
+        console.log('ok')
+    }  */
+
+    /* o 
+    var num = 10; 
+    if ( num > 0 ){
+        console.log('mayor de 0')
+    } else if ( num == 1){
+        console.log('menor de 0')
+    } else {
+        console.log('igual 0')
+    }
+    */
+
+    // operador ternario 
+    /* var num = 10; 
+
+    ( num > 10 ) ? console.log('mayor de 0') : console.log('igual 0')
+    */
+
+    // ejemplo 
+    /* 
+    let a = 4; 
+    let b = "nico";
+    console.log( a && b); que significa (a) ? b : a 
+    console.log( a || b); 
+    */
+
+
+    // El bucle FOR se utiliza para repetir una o más instrucciones un determinado número de veces.
+
+    // bucle while 
+
+    /* 
+    var num = 30; 
+    while (num > 2) {
+        console.log(num)
+        num = num /2 
+    } 
+    has dividido num / 2 hasta num > 2 */
+
+    // break and continue 
+
+        // esto significa si el numero es iqual que 5 sal del bucleo 
+        /* for (let i = 1; i <= 10; i++) {
+            console.log(i)
+
+            if (i == 5){
+                break;
+            }
+        } */
+        
+        // esto significa salta la iteracion con 5 
+        /* for (let i = 1; i <= 10; i++) {
+           
+            if (i == 5){
+                continue;
+            }
+            console.log(i)
+        } */
+
+    // funciones 
+
+    // 1 ejemplo 
+    /* function area(lado1, lado2) {
+        console.log(lado1 * lado2)    
+    }
+    area(2, 3) */
+
+    /* function area(lado1, lado2) {
+        return lado1 * lado2 
+    }
+    console.log('area : ' + area(2, 3)); */
+    
 
     // array and object 
 
@@ -677,7 +806,7 @@ var prueba = document.querySelector('#prueba')
         // length es una propriedad de Array no de arr, js la busca en arr no la encuentra y la coje desde Array que es el padre de arr 
 
         // ejemplo con el objeto empresa per utilizar el padre Object.keys(empresa) como metodo keys por defecto de Object 
-        
+
         // ejemplo de aplicacion de propreidad a dato primitivo como string 
         //var str = "ciao";
 
@@ -686,6 +815,10 @@ var prueba = document.querySelector('#prueba')
 
         
         
+
+
+
+
 
 
 
